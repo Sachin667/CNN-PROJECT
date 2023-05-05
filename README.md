@@ -1,7 +1,7 @@
 # CNN-PROJECT
 Image Classfication using CNN
 ## Rice_Deases_Classfication
-The cultivation of rice, a staple crop in Asia, is threatened by various diseases at different stages of production, posing a significant risk to food safety and agricultural productivity. Severe infestations of rice plant diseases can even lead to a complete loss of harvest. Therefore, there is a critical need for automated disease identification and diagnosis in the agricultural industry. While several methods have been proposed, deep learning has emerged as the most promising approach due to its exceptional performance. In this study, we propose a hybrid deep CNN transfer learning method for the classification and identification of various rice diseases using rice plant images. We leverage transfer learning techniques and utilize the Rice_Leaf_Dataset to train our deep learning model. The proposed approach achieves an impressive accuracy rate of 90.8%, demonstrating its feasibility and superiority over existing methods in efficiently detecting plant diseases.
+The cultivation of rice, a staple crop in Asia, is threatened by various diseases at different stages of production, posing a significant risk to food safety and agricultural productivity. Severe infestations of rice plant diseases can even lead to a complete loss of harvest. Therefore, there is a critical need for automated disease identification and diagnosis in the agricultural industry. While several methods have been proposed, deep learning has emerged as the most promising approach due to its exceptional performance. In this study, we propose a hybrid deep CNN transfer learning method for the classification and identification of various rice diseases using rice plant images. We leverage transfer learning techniques and utilize the Rice_Leaf_Dataset to train our deep learning model. The proposed approach achieves an impressive accuracy rate of 94%, demonstrating its feasibility and superiority over existing methods in efficiently detecting plant diseases.
 ## AIM
 1, PREPARE A COMPLETE DATA ANALYSIS REPORT ON THE GIVEN DATA 
 
@@ -18,3 +18,18 @@ The major rice leaf diseasea are Leaf smut disease,Brown spot and Bacterial leaf
 What causes rice leaf smut is a fungus called Entyloma oryzae. Fortunately for your garden, if you see its signs, this infection is usually minor. It is widespread where rice is grown, but leaf smut doesn’t often cause serious damage. However, leaf smut can make your rice vulnerable to other diseases, and ultimately this can cause a yield reduction.
 * **Brown spot**-
 Brown spot has been historically largely ignored as one of the most common and most damaging rice diseases.Its most observable damage is the numerous big spots on the leaves which can kill the whole leaf. When infection occurs in the seed, unfilled grains or spotted or discolored seeds are formed.
+* **Bacterial leaf blight**-
+Bacterial blight of rice is one of the deadliest diseases for rice which occur in both tropical and temperate climates where there are irrigated and rainfed lowlands.. Xanthomonas oryzae pv. Oryzae(type of virus) is the causal agent of the bacterial blight of rice. The disease occurs in areas with high numbers of weeds and can spread easily from one infected plant to another.
+**CNN MODEL PERFORMANCE**
+re={
+    "score B/A":["Before Aug and Tun","After Aug and Tun"],
+    "loss":[0.0003,0.0001],
+    "validation_accuracy":[81,100],
+    "validation_loss":[0.9,0.4],
+    "Test_accuracy" : [66.6,95]
+    }
+df = pd.DataFrame(re)
+df
+
+
+
